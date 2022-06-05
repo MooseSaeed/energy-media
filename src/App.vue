@@ -1,26 +1,60 @@
 <template>
-  <router-view />
+  <Navbar
+    :class="
+      (scrollingUp
+        ? 'animate__animated animate__fadeInDown '
+        : 'animate__animated animate__fadeOutUp ',
+      scrollingDown
+        ? 'animate__animated animate__fadeOutUp '
+        : 'animate__animated animate__fadeInDown ')
+    "
+  />
+  <router-view v-slot="{ Component, route }">
+    <transition
+      :enter-active-class="route.meta.enterClass"
+      :leave-active-class="route.meta.leaveClass"
+      mode="out-in"
+    >
+      <div :key="route.name">
+        <Component :is="Component" />
+      </div>
+    </transition>
+  </router-view>
 </template>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+<script>
+import Navbar from "./components/Navbar.vue";
+export default {
+  components: {
+    Navbar,
+  },
+  data() {
+    return {
+      lastScrollTop: 0,
+      scrollingDown: false,
+      scrollingUp: false,
+    };
+  },
+  created() {
+    window.addEventListener("scroll", this.handleScroll);
+  },
+  destroyed() {
+    window.removeEventListener("scroll", this.handleScroll);
+  },
+  methods: {
+    handleScroll: function (e) {
+      let st = window.pageYOffset || document.documentElement.scrollTop; // Credits: "https://github.com/qeremy/so/blob/master/so.dom.js#L426"
+      if (st > this.lastScrollTop) {
+        this.scrollingDown = true;
+        this.scrollingUp = false;
+      } else {
+        this.scrollingDown = false;
+        this.scrollingUp = true;
+      }
+      this.lastScrollTop = st <= 0 ? 0 : st; // For Mobile or negative scrolling
+    },
+  },
+};
+</script>
 
-nav {
-  padding: 30px;
-}
-
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-nav a.router-link-exact-active {
-  color: #42b983;
-}
-</style>
+<style></style>
