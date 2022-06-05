@@ -3,35 +3,17 @@
     <svg viewBox="0 0 960 300">
       <symbol id="s-text">
         <text class="font-bold" text-anchor="middle" x="50%" y="80%">
-          Tailwinder
+          ENERGY
         </text>
       </symbol>
 
       <g class="g-ants">
-        <use
-          xlink:href="#s-text"
-          class="text-copy dark:stroke-white stroke-black"
-        ></use>
-        <use
-          xlink:href="#s-text"
-          class="text-copy dark:stroke-white stroke-black"
-        ></use>
-        <use
-          xlink:href="#s-text"
-          class="text-copy dark:stroke-white stroke-black"
-        ></use>
-        <use
-          xlink:href="#s-text"
-          class="text-copy dark:stroke-white stroke-black"
-        ></use>
-        <use
-          xlink:href="#s-text"
-          class="text-copy dark:stroke-white stroke-black"
-        ></use>
-        <use
-          xlink:href="#s-text"
-          class="text-copy dark:stroke-white stroke-black"
-        ></use>
+        <use xlink:href="#s-text" class="text-copy stroke-white"></use>
+        <use xlink:href="#s-text" class="text-copy stroke-white"></use>
+        <use xlink:href="#s-text" class="text-copy stroke-white"></use>
+        <use xlink:href="#s-text" class="text-copy stroke-white"></use>
+        <use xlink:href="#s-text" class="text-copy stroke-white"></use>
+        <use xlink:href="#s-text" class="text-copy stroke-white"></use>
       </g>
     </svg>
   </div>
@@ -77,28 +59,32 @@ svg {
 }
 
 .text-copy:nth-child(1) {
-  stroke: #00aa63;
+  stroke: #ff0000;
   animation-delay: -1;
 }
 
 .text-copy:nth-child(2) {
-  stroke: #00d37b;
+  stroke: #ffffff;
   animation-delay: -2s;
 }
 
 .text-copy:nth-child(3) {
-  stroke: #00ff95;
+  stroke: #ff1d1d;
   animation-delay: -3s;
 }
 
 .text-copy:nth-child(4) {
-  stroke: #0057a3;
+  stroke: #ff0000;
   animation-delay: -4s;
 }
 
 .text-copy:nth-child(5) {
-  stroke: #1c95ff;
+  stroke: #ffffff;
   animation-delay: -5s;
+}
+.text-copy:nth-child(6) {
+  stroke: #ff0000;
+  animation-delay: -6s;
 }
 
 @keyframes stroke-offset {

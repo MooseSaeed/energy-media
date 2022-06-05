@@ -1,25 +1,27 @@
 <template>
-  <Navbar
-    :class="
-      (scrollingUp
-        ? 'animate__animated animate__fadeInDown '
-        : 'animate__animated animate__fadeOutUp ',
-      scrollingDown
-        ? 'animate__animated animate__fadeOutUp '
-        : 'animate__animated animate__fadeInDown ')
-    "
-  />
-  <router-view v-slot="{ Component, route }">
-    <transition
-      :enter-active-class="route.meta.enterClass"
-      :leave-active-class="route.meta.leaveClass"
-      mode="out-in"
-    >
-      <div :key="route.name">
-        <Component :is="Component" />
-      </div>
-    </transition>
-  </router-view>
+  <div class="bg-gray-900">
+    <Navbar
+      :class="
+        (scrollingUp
+          ? 'animate__animated animate__fadeInDown '
+          : 'animate__animated animate__fadeOutUp ',
+        scrollingDown
+          ? 'animate__animated animate__fadeOutUp '
+          : 'animate__animated animate__fadeInDown ')
+      "
+    />
+    <router-view v-slot="{ Component, route }">
+      <transition
+        :enter-active-class="route.meta.enterClass"
+        :leave-active-class="route.meta.leaveClass"
+        mode="out-in"
+      >
+        <div :key="route.name">
+          <Component :is="Component" />
+        </div>
+      </transition>
+    </router-view>
+  </div>
 </template>
 
 <script>
