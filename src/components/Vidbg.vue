@@ -1,9 +1,10 @@
 <template>
   <VideoBackground
     :src="require(`@/assets/images/sample.mp4`)"
-    style="max-height: 400px; height: 100vh"
+    style="height: 100vh"
+    overlay="linear-gradient(to bottom,  #0000, #000)"
   >
-    <h1 style="color: white">Hello welcome!</h1>
+    <slot />
   </VideoBackground>
 </template>
 

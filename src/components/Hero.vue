@@ -24,6 +24,7 @@
             </div>
           </div>
         </h1>
+
         <p
           class="mt-5 text-sm sm:text-lg text-center max-w-lg text-white animate__animated animate__bounceInUp animate__slow"
         >
