@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col justify-center items-center sm:mt-8 mt-20">
+  <div class="flex flex-col justify-center items-center sm:mt-8 mt-20 mx-10">
     <div class="max-w-72 order-1 md:-order-none">
       <div class="max-w-xs sm:max-w-xl animate__animated animate__flipInX">
         <Energy />
@@ -25,7 +25,7 @@
           </div>
         </h1>
         <p
-          class="mt-5 text-lg text-center max-w-lg text-white animate__animated animate__bounceInUp animate__slow"
+          class="mt-5 text-sm sm:text-lg text-center max-w-lg text-white animate__animated animate__bounceInUp animate__slow"
         >
           This is the right place for you if you want to take your brand to the
           next level of success and popularity.
