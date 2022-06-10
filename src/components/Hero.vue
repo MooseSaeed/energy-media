@@ -28,7 +28,7 @@
         </h1>
 
         <p
-          class="mt-5 text-sm xs:text-xl text-center max-w-lg text-white animate__animated animate__bounceInUp animate__slow"
+          class="mt-5 text-sm xs:text-lg text-center max-w-lg text-white animate__animated animate__bounceInUp animate__slow"
         >
           This is the right place for you if you want to take your brand to the
           next level of success and popularity.
