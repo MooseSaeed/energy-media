@@ -1,6 +1,9 @@
 <template>
   <section class="text-center py-10">
-    <h2 class="text-white text-4xl font-bold leading-relaxed">
+    <h2
+      id="Projects"
+      class="text-white text-4xl font-bold leading-relaxed mb-10"
+    >
       Latest <span class="bg-black px-2 py-1 text-red-500">PROJECTS</span>
     </h2>
     <div class="text-gray-600 body-font">
