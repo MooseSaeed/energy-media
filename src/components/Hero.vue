@@ -52,50 +52,50 @@
           >
             <Secondarybtn class="text-sm sm:text-base"> ABOUT US </Secondarybtn>
           </a>
-          <a
-            href="#Projects"
-            class="absolute z-20 bottom-8 w-10 h-10 animate-[bounce_3s_ease-in-out_infinite]"
-          >
-            <svg
-              version="1.1"
-              id="Layer_1"
-              xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink"
-              x="0px"
-              y="0px"
-              viewBox="0 0 512 512"
-              style="enable-background: new 0 0 512 512"
-              xml:space="preserve"
-            >
-              <path
-                style="fill: #2d2d2d"
-                d="M256,0C114.608,0,0,114.608,0,256c0,141.376,114.608,256,256,256s256-114.624,256-256
-	C512,114.608,397.392,0,256,0z"
-              />
-              <path
-                style="fill: #db2b42"
-                d="M119.52,147.056l136.4,87.488l136.4-87.472L255.92,431.36L119.52,147.056z"
-              />
-              <g></g>
-              <g></g>
-              <g></g>
-              <g></g>
-              <g></g>
-              <g></g>
-              <g></g>
-              <g></g>
-              <g></g>
-              <g></g>
-              <g></g>
-              <g></g>
-              <g></g>
-              <g></g>
-              <g></g>
-            </svg>
-          </a>
         </div>
       </footer>
     </section>
+    <!--     <a
+      href="#Projects"
+      class="mt-20 bottom-8 w-10 h-10 animate-[bounce_3s_ease-in-out_infinite]"
+    >
+      <svg
+        version="1.1"
+        id="Layer_1"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        x="0px"
+        y="0px"
+        viewBox="0 0 512 512"
+        style="enable-background: new 0 0 512 512"
+        xml:space="preserve"
+      >
+        <path
+          style="fill: #2d2d2d"
+          d="M256,0C114.608,0,0,114.608,0,256c0,141.376,114.608,256,256,256s256-114.624,256-256
+	C512,114.608,397.392,0,256,0z"
+        />
+        <path
+          style="fill: #db2b42"
+          d="M119.52,147.056l136.4,87.488l136.4-87.472L255.92,431.36L119.52,147.056z"
+        />
+        <g></g>
+        <g></g>
+        <g></g>
+        <g></g>
+        <g></g>
+        <g></g>
+        <g></g>
+        <g></g>
+        <g></g>
+        <g></g>
+        <g></g>
+        <g></g>
+        <g></g>
+        <g></g>
+        <g></g>
+      </svg>
+    </a> -->
   </div>
 </template>
 
