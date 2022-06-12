@@ -12,7 +12,7 @@
           <!-- Card -->
           <div class="p-4 md:w-1/3">
             <div
-              class="h-full rounded-xl shadow-cla-blue bg-gradient-to-r from-indigo-50 to-blue-50 overflow-hidden"
+              class="h-full rounded-xl bg-gradient-to-r shadow-md shadow-black from-slate-800 to-gray-900 overflow-hidden"
             >
               <img
                 class="lg:h-48 md:h-36 w-full object-cover object-center scale-110 transition-all duration-400 hover:scale-100"
@@ -20,25 +20,147 @@
                 alt="sample"
               />
               <div class="p-6">
-                <h2
-                  class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"
-                >
-                  <a class="text-blue-500">Category</a>
-                </h2>
-
-                <h1
-                  class="title-font text-lg font-medium text-gray-600 mb-3 hover:text-blue-500"
-                >
+                <h1 class="title-font text-lg font-medium text-gray-200 mb-3">
                   A Big Title Goes Here
                 </h1>
 
-                <p class="leading-relaxed mb-3">Some description</p>
+                <p class="leading-relaxed mb-5 text-white">Some description</p>
                 <div class="flex items-center flex-wrap">
-                  <button
-                    class="text-white bg-gradient-to-r from-red-400 to-red-600 hover:scale-105 drop-shadow-md shadow-cla-blue px-4 py-1 rounded-lg"
-                  >
-                    Learn more
-                  </button>
+                  <a href="/tools">
+                    <Primarybtn class="text-sm sm:text-base">
+                      Check Demo
+                    </Primarybtn>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Card -->
+          <div class="p-4 md:w-1/3">
+            <div
+              class="h-full rounded-xl bg-gradient-to-r shadow-md shadow-black from-slate-800 to-gray-900 overflow-hidden"
+            >
+              <img
+                class="lg:h-48 md:h-36 w-full object-cover object-center scale-110 transition-all duration-400 hover:scale-100"
+                src="../assets/images/robotthumbnail.png"
+                alt="sample"
+              />
+              <div class="p-6">
+                <h1 class="title-font text-lg font-medium text-gray-200 mb-3">
+                  A Big Title Goes Here
+                </h1>
+
+                <p class="leading-relaxed mb-5 text-white">Some description</p>
+                <div class="flex items-center flex-wrap">
+                  <a href="/tools">
+                    <Primarybtn class="text-sm sm:text-base">
+                      Check Demo
+                    </Primarybtn>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Card -->
+          <div class="p-4 md:w-1/3">
+            <div
+              class="h-full rounded-xl bg-gradient-to-r shadow-md shadow-black from-slate-800 to-gray-900 overflow-hidden"
+            >
+              <img
+                class="lg:h-48 md:h-36 w-full object-cover object-center scale-110 transition-all duration-400 hover:scale-100"
+                src="../assets/images/robotthumbnail.png"
+                alt="sample"
+              />
+              <div class="p-6">
+                <h1 class="title-font text-lg font-medium text-gray-200 mb-3">
+                  A Big Title Goes Here
+                </h1>
+
+                <p class="leading-relaxed mb-5 text-white">Some description</p>
+                <div class="flex items-center flex-wrap">
+                  <a href="/tools">
+                    <Primarybtn class="text-sm sm:text-base">
+                      Check Demo
+                    </Primarybtn>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Card -->
+          <div class="p-4 md:w-1/3">
+            <div
+              class="h-full rounded-xl bg-gradient-to-r shadow-md shadow-black from-slate-800 to-gray-900 overflow-hidden"
+            >
+              <img
+                class="lg:h-48 md:h-36 w-full object-cover object-center scale-110 transition-all duration-400 hover:scale-100"
+                src="../assets/images/robotthumbnail.png"
+                alt="sample"
+              />
+              <div class="p-6">
+                <h1 class="title-font text-lg font-medium text-gray-200 mb-3">
+                  A Big Title Goes Here
+                </h1>
+
+                <p class="leading-relaxed mb-5 text-white">Some description</p>
+                <div class="flex items-center flex-wrap">
+                  <a href="/tools">
+                    <Primarybtn class="text-sm sm:text-base">
+                      Check Demo
+                    </Primarybtn>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Card -->
+          <div class="p-4 md:w-1/3">
+            <div
+              class="h-full rounded-xl bg-gradient-to-r shadow-md shadow-black from-slate-800 to-gray-900 overflow-hidden"
+            >
+              <img
+                class="lg:h-48 md:h-36 w-full object-cover object-center scale-110 transition-all duration-400 hover:scale-100"
+                src="../assets/images/robotthumbnail.png"
+                alt="sample"
+              />
+              <div class="p-6">
+                <h1 class="title-font text-lg font-medium text-gray-200 mb-3">
+                  A Big Title Goes Here
+                </h1>
+
+                <p class="leading-relaxed mb-5 text-white">Some description</p>
+                <div class="flex items-center flex-wrap">
+                  <a href="/tools">
+                    <Primarybtn class="text-sm sm:text-base">
+                      Check Demo
+                    </Primarybtn>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Card -->
+          <div class="p-4 md:w-1/3">
+            <div
+              class="h-full rounded-xl bg-gradient-to-r shadow-md shadow-black from-slate-800 to-gray-900 overflow-hidden"
+            >
+              <img
+                class="lg:h-48 md:h-36 w-full object-cover object-center scale-110 transition-all duration-400 hover:scale-100"
+                src="../assets/images/robotthumbnail.png"
+                alt="sample"
+              />
+              <div class="p-6">
+                <h1 class="title-font text-lg font-medium text-gray-200 mb-3">
+                  A Big Title Goes Here
+                </h1>
+
+                <p class="leading-relaxed mb-5 text-white">Some description</p>
+                <div class="flex items-center flex-wrap">
+                  <a href="/tools">
+                    <Primarybtn class="text-sm sm:text-base">
+                      Check Demo
+                    </Primarybtn>
+                  </a>
                 </div>
               </div>
             </div>
@@ -57,7 +179,12 @@
 </template>
 
 <script>
-export default {};
+import Primarybtn from "./Primarybtn.vue";
+export default {
+  components: {
+    Primarybtn,
+  },
+};
 </script>
 
 <style></style>
