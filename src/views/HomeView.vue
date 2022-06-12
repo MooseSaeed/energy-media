@@ -17,18 +17,23 @@
   <main>
     <Projects />
   </main>
+  <footer>
+    <Footer />
+  </footer>
 </template>
 
 <script>
 import Hero from "../components/Hero.vue";
 import Vidbg from "../components/Vidbg.vue";
 import Projects from "../components/Projects.vue";
+import Footer from "../components/Footer.vue";
 export default {
   name: "Homepage",
   components: {
     Hero,
     Vidbg,
     Projects,
+    Footer,
   },
 };
 </script>
