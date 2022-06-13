@@ -59,7 +59,7 @@ svg {
 }
 
 .text-copy:nth-child(1) {
-  stroke: #ff0000;
+  stroke: #ef4444;
   animation-delay: -1;
 }
 
@@ -69,12 +69,12 @@ svg {
 }
 
 .text-copy:nth-child(3) {
-  stroke: #ff1d1d;
+  stroke: #ff0000;
   animation-delay: -3s;
 }
 
 .text-copy:nth-child(4) {
-  stroke: #ff0000;
+  stroke: #ef4444;
   animation-delay: -4s;
 }
 

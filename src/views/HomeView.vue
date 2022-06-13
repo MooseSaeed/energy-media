@@ -16,6 +16,7 @@
   </svg>
   <main>
     <Projects />
+    <Aboutus />
   </main>
   <footer>
     <Footer />
@@ -27,6 +28,7 @@ import Hero from "../components/Hero.vue";
 import Vidbg from "../components/Vidbg.vue";
 import Projects from "../components/Projects.vue";
 import Footer from "../components/Footer.vue";
+import Aboutus from "../components/Aboutus.vue";
 export default {
   name: "Homepage",
   components: {
@@ -34,6 +36,7 @@ export default {
     Vidbg,
     Projects,
     Footer,
+    Aboutus,
   },
 };
 </script>
