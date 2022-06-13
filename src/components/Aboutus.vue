@@ -4,7 +4,47 @@
       About <span class="bg-black px-2 py-1 text-red-500">US</span>
     </h2>
     <div class="text-gray-600 body-font">
-      <div class="container px-5 mx-auto">some info</div>
+      <div class="container px-5 mx-auto">
+        <Card class="rounded-xl">
+          <article
+            class="post-card text-white bg-gradient-to-r shadow-md shadow-black from-slate-800 to-gray-900 transition-all duration-1000 border border-black border-opacity-0 hover:border-opacity-5 rounded-xl"
+          >
+            <div class="py-6 px-5 lg:flex">
+              <div class="flex-1 lg:mr-8 self-center">
+                <img
+                  src="../assets/images/robotthumbnail.png"
+                  alt="Blog Post illustration"
+                  class="rounded-xl object-cover"
+                />
+              </div>
+
+              <div class="flex-1 flex flex-col justify-between">
+                <header class="mt-8 lg:mt-0">
+                  <div class="mt-4 card-info">
+                    <a href="/">
+                      <h1 class="text-3xl text-red-500 font-bold">
+                        Some Big Title
+                      </h1>
+                    </a>
+                  </div>
+                </header>
+
+                <div class="card-info text-md mt-4">
+                  <p>excerpt</p>
+                </div>
+
+                <footer
+                  class="flex flex-col sm:flex-row justify-between items-center mt-8"
+                >
+                  <div></div>
+
+                  <Secondarybtn> Learn more </Secondarybtn>
+                </footer>
+              </div>
+            </div>
+          </article>
+        </Card>
+      </div>
     </div>
     <!--     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 170">
       <path
@@ -17,10 +57,13 @@
 </template>
 
 <script>
-import Primarybtn from "./Primarybtn.vue";
+import Secondarybtn from "./Secondarybtn.vue";
+import Card from "./Card.vue";
+
 export default {
   components: {
-    Primarybtn,
+    Secondarybtn,
+    Card,
   },
 };
 </script>
