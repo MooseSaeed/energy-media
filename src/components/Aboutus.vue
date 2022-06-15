@@ -29,8 +29,23 @@
                   </div>
                 </header>
 
-                <div class="card-info text-md mt-4">
-                  <p>excerpt</p>
+                <div class="card-info text-md mt-2">
+                  <p>
+                    Not an excerpt but some data of random lorem Lorem ipsum
+                    dolor sit amet consectetur, adipisicing elit. Sint minus
+                    alias voluptatibus iusto odio facere officiis, possimus
+                    laborum illum voluptatem cupiditate inventore expedita
+                    obcaecati hic. Dignissimos iure error eius, animi qui quam
+                    voluptatum ad cumque explicabo culpa, sunt quod eligendi
+                    quis dolorem laboriosam! Explicabo minus autem quod illum
+                    iste. Laudantium, delectus ipsum! Incidunt iusto recusandae
+                    id sit vitae similique, ipsa ea cupiditate adipisci labore.
+                    Voluptate labore eaque vitae ex dolor quam in temporibus
+                    adipisci, suscipit corporis! Hic ut unde facilis non minus.
+                    Enim, officiis alias beatae voluptate tempora, accusantium
+                    inventore perspiciatis vitae, dignissimos dolores assumenda
+                    recusandae sunt. Veniam, laudantium. Velit!
+                  </p>
                 </div>
 
                 <footer
@@ -38,7 +53,7 @@
                 >
                   <div></div>
 
-                  <Secondarybtn> Learn more </Secondarybtn>
+                  <Secondarybtn class="mt-4"> Learn more </Secondarybtn>
                 </footer>
               </div>
             </div>
