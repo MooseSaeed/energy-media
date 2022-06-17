@@ -48,7 +48,7 @@
           </a>
           <a
             class="ml-3 animate__animated animate__bounceInUp animate__slow animate__delay-1s"
-            href="/components"
+            href="#aboutus"
           >
             <Secondarybtn class="text-sm sm:text-base"> ABOUT US </Secondarybtn>
           </a>
