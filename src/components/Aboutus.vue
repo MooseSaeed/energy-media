@@ -56,7 +56,9 @@
                 >
                   <div></div>
 
-                  <Secondarybtn class="mt-4"> Learn more </Secondarybtn>
+                  <Secondarybtn class="mt-4 cursor-pointer">
+                    Learn more
+                  </Secondarybtn>
                 </footer>
               </div>
             </div>

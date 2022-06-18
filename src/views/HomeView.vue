@@ -17,6 +17,7 @@
   <main>
     <Projects />
     <Aboutus />
+    <Gettobusiness />
   </main>
   <footer>
     <Footer />
@@ -29,6 +30,7 @@ import Vidbg from "../components/Vidbg.vue";
 import Projects from "../components/Projects.vue";
 import Footer from "../components/Footer.vue";
 import Aboutus from "../components/Aboutus.vue";
+import Gettobusiness from "../components/Gettobusiness.vue";
 export default {
   name: "Homepage",
   components: {
@@ -37,6 +39,7 @@ export default {
     Projects,
     Footer,
     Aboutus,
+    Gettobusiness,
   },
 };
 </script>
