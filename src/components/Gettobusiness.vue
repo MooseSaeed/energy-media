@@ -6,6 +6,16 @@
     >
       Get to <span class="bg-black px-2 py-1 text-red-500">BUSINESS</span>
     </h2>
+
+    <iframe
+      class="w-full"
+      src="https://docs.google.com/forms/d/e/1FAIpQLSf_P2HJ9mlWB_pkvLrfje6QbcpFp1HolwoPRcMy5e555SBjOA/viewform?embedded=true"
+      height="850"
+      frameborder="0"
+      marginheight="0"
+      marginwidth="0"
+      >Loading…</iframe
+    >
   </section>
 </template>
 
