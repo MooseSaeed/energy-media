@@ -64,33 +64,26 @@
           <li>
             <a
               class="block py-2 pr-4 pl-3 text-white font-semibold border-b border-gray-100 hover:bg-red-500 md:hover:bg-transparent md:border-0 md:hover:text-red-500 md:p-0"
+              href="#aboutus"
+            >
+              About us
+            </a>
+          </li>
+          <li>
+            <a
+              class="block py-2 pr-4 pl-3 text-white font-semibold border-b border-gray-100 hover:bg-red-500 md:hover:bg-transparent md:border-0 md:hover:text-red-500 md:p-0"
               href="#Projects"
             >
               Projects
             </a>
           </li>
+
           <li>
             <a
               class="block py-2 pr-4 pl-3 text-white font-semibold border-b border-gray-100 hover:bg-red-500 md:hover:bg-transparent md:border-0 md:hover:text-red-500 md:p-0"
-              href="/components"
+              href="#gettobusiness"
             >
-              Components
-            </a>
-          </li>
-          <li>
-            <a
-              class="block py-2 pr-4 pl-3 text-white font-semibold border-b border-gray-100 hover:bg-red-500 md:hover:bg-transparent md:border-0 md:hover:text-red-500 md:p-0"
-              href="/academy"
-            >
-              Academy
-            </a>
-          </li>
-          <li>
-            <a
-              class="block py-2 pr-4 pl-3 text-white font-semibold border-b border-gray-100 hover:bg-red-500 md:hover:bg-transparent md:border-0 md:hover:text-red-500 md:p-0"
-              href="/community"
-            >
-              Community
+              Get to Business
             </a>
           </li>
         </ul>

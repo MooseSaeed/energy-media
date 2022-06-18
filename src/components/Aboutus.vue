@@ -1,5 +1,5 @@
 <template>
-  <section class="text-center py-10">
+  <section class="text-center">
     <h2
       id="aboutus"
       class="text-white text-4xl font-bold leading-relaxed mb-10"
@@ -57,7 +57,7 @@
                   <div></div>
 
                   <Secondarybtn class="mt-4 cursor-pointer">
-                    Learn more
+                    <a href="#gettobusiness">Learn more</a>
                   </Secondarybtn>
                 </footer>
               </div>

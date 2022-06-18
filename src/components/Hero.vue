@@ -39,7 +39,7 @@
           class="realtive flex flex-col sm:flex-row gap-4 items-center justify-center overflow-hidden py-5 px-2"
         >
           <a
-            href="/tools"
+            href="#gettobusiness"
             class="animate__animated animate__bounceInUp animate__delay-1s"
           >
             <Primarybtn class="text-sm sm:text-base">

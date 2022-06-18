@@ -9,8 +9,10 @@
   <footer
     class="bg-black text-white text-center pb-20 px-10 flex flex-col justify-center items-center"
   >
+    <slot />
+
     <div
-      class="mt-3 flex flex-col sd:flex-row gap-5 items-center justify-center text-white"
+      class="flex flex-col sd:flex-row gap-5 items-center justify-center text-white"
     >
       <div class="flex flex-col sm:flex-row items-center justify-center">
         <p class="mr-2 mb-2 sm:mb-0 text-sm xs:text-lg">Find me here</p>

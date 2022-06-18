@@ -1,5 +1,5 @@
 <template>
-  <section class="text-center py-10">
+  <section class="text-center">
     <h2
       id="Projects"
       class="text-white text-4xl font-bold leading-relaxed mb-10"
