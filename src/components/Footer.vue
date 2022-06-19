@@ -15,44 +15,50 @@
       class="flex flex-col sd:flex-row gap-5 items-center justify-center text-white"
     >
       <div class="flex flex-col sm:flex-row items-center justify-center">
-        <p class="mr-2 mb-2 sm:mb-0 text-sm xs:text-lg">Find me here</p>
+        <p class="mr-2 mb-2 sm:mb-0 text-sm xs:text-lg">Find Us Here</p>
         <div class="flex flex-row gap-2">
-          <a href="https://twitter.com/Moose_Said" target="_blank">
+          <a
+            href="https://www.facebook.com/Energyformediaproduction1"
+            target="_blank"
+          >
             <img
               class="transition-transform hover:scale-125"
               width="40"
-              src="../assets/images/twitter.png"
-              alt="Twitter icons created by Hight Quality Icons"
+              src="../assets/images/facebook.png"
+              alt="Facebook Icon"
             />
           </a>
-          <a href="https://github.com/MooseSaeed" target="_blank">
+          <a
+            href="https://www.instagram.com/energyformediaproduction1/"
+            target="_blank"
+          >
             <img
               class="transition-transform hover:scale-125"
               width="40"
-              src="../assets/images/github.png"
-              alt="github icons created by Hight Quality Icons"
+              src="../assets/images/instagram.png"
+              alt="Instagram Icon"
             />
           </a>
-          <a href="https://dev.to/moose_said" target="_blank">
+          <a href="https://vimeo.com/user177402373" target="_blank">
             <img
               class="transition-transform hover:scale-125"
               width="40"
-              src="../assets/images/dev.png"
-              alt="devto icons created by Hight Quality Icons"
+              src="../assets/images/vimeo.png"
+              alt="Vimeo Icon"
             />
           </a>
         </div>
       </div>
       <div class="flex xs:flex-row flex-col items-center justify-center">
         <p class="mr-2 mb-2 xs:mb-0 text-sm xs:text-lg">
-          Or just fire me an E-Mail
+          Or just fire an E-Mail
         </p>
-        <a href="mailto:mostafasaid1994@gmail.com" target="_blank">
+        <a href="mailto:energyformediaproduction@gmail.com" target="_blank">
           <img
             class="transition-transform hover:scale-125"
             width="40"
             src="../assets/images/email.png"
-            alt="email icons created by Hight Quality Icons"
+            alt="Email Icon"
           />
         </a>
       </div>
