@@ -38,10 +38,204 @@
                 <h1
                   class="title-font text-lg font-medium text-gray-200 mt-7 mb-3"
                 >
-                  A Big Title Goes Here
+                  Food Commercial Video 🥘
                 </h1>
 
-                <p class="leading-relaxed mb-5 text-white">Some description</p>
+                <p class="leading-relaxed mb-5 text-white">
+                  Advertisement generally produced for television, social media,
+                  or other parts of the internet.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Card -->
+          <div class="p-4 md:w-1/3">
+            <div
+              class="h-full rounded-xl bg-gradient-to-r shadow-md shadow-black from-slate-800 to-gray-900 overflow-hidden"
+            >
+              <div
+                class="lg:h-48 md:h-36 w-full object-cover object-center md:scale-105 transition-all duration-400 hover:scale-100"
+              >
+                <div style="padding: 56.25% 0 0 0; position: relative">
+                  <iframe
+                    src="https://player.vimeo.com/video/720183431?h=56af4864ca&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                    frameborder="0"
+                    allow="autoplay; fullscreen; picture-in-picture"
+                    allowfullscreen
+                    style="
+                      position: absolute;
+                      top: 0;
+                      left: 0;
+                      width: 100%;
+                      height: 100%;
+                    "
+                    title="ROYAL CLUB"
+                  ></iframe>
+                </div>
+              </div>
+              <div class="p-6">
+                <h1
+                  class="title-font text-lg font-medium text-gray-200 mt-7 mb-3"
+                >
+                  Royal Club 👨‍🍳
+                </h1>
+
+                <p class="leading-relaxed mb-5 text-white">
+                  Advertisement generally produced for television, social media,
+                  or other parts of the internet.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Card -->
+          <div class="p-4 md:w-1/3">
+            <div
+              class="h-full rounded-xl bg-gradient-to-r shadow-md shadow-black from-slate-800 to-gray-900 overflow-hidden"
+            >
+              <div
+                class="lg:h-48 md:h-36 w-full object-cover object-center md:scale-105 transition-all duration-400 hover:scale-100"
+              >
+                <div style="padding: 56.6% 0 0 0; position: relative">
+                  <iframe
+                    src="https://player.vimeo.com/video/720143798?h=1a7b1fba2a&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                    frameborder="0"
+                    allow="autoplay; fullscreen; picture-in-picture"
+                    allowfullscreen
+                    style="
+                      position: absolute;
+                      top: 0;
+                      left: 0;
+                      width: 100%;
+                      height: 100%;
+                    "
+                    title="commercial video"
+                  ></iframe>
+                </div>
+              </div>
+              <div class="p-6">
+                <h1
+                  class="title-font text-lg font-medium text-gray-200 mt-7 mb-3"
+                >
+                  Azar Restaurant & Cafe (Drinks) 🥤
+                </h1>
+
+                <p class="leading-relaxed mb-5 text-white">
+                  Advertisement generally produced for television, social media,
+                  or other parts of the internet.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Card -->
+          <div class="p-4 md:w-1/3">
+            <div
+              class="h-full rounded-xl bg-gradient-to-r shadow-md shadow-black from-slate-800 to-gray-900 overflow-hidden"
+            >
+              <div
+                class="lg:h-48 md:h-36 w-full object-cover object-center md:scale-105 transition-all duration-400 hover:scale-100"
+              >
+                <div style="padding: 54.72% 0 0 0; position: relative">
+                  <iframe
+                    src="https://player.vimeo.com/video/716244604?h=f5328d595a&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                    frameborder="0"
+                    allow="autoplay; fullscreen; picture-in-picture"
+                    allowfullscreen
+                    style="
+                      position: absolute;
+                      top: 0;
+                      left: 0;
+                      width: 100%;
+                      height: 100%;
+                    "
+                    title="commercial video"
+                  ></iframe>
+                </div>
+              </div>
+              <div class="p-6">
+                <h1
+                  class="title-font text-lg font-medium text-gray-200 mt-7 mb-3"
+                >
+                  Azar Restaurant & Cafe (Food) 🍽️
+                </h1>
+
+                <p class="leading-relaxed mb-5 text-white">
+                  Advertisement generally produced for television, social media,
+                  or other parts of the internet.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Card -->
+          <div class="p-4 md:w-1/3">
+            <div
+              class="h-full rounded-xl bg-gradient-to-r shadow-md shadow-black from-slate-800 to-gray-900 overflow-hidden"
+            >
+              <div
+                class="lg:h-48 md:h-36 w-full object-cover object-center md:scale-105 transition-all duration-400 hover:scale-100"
+              >
+                <div style="padding: 55.63% 0 0 0; position: relative">
+                  <iframe
+                    src="https://player.vimeo.com/video/720186132?h=1a4508a130&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                    frameborder="0"
+                    allow="autoplay; fullscreen; picture-in-picture"
+                    allowfullscreen
+                    style="
+                      position: absolute;
+                      top: 0;
+                      left: 0;
+                      width: 100%;
+                      height: 100%;
+                    "
+                    title="ENERGY ❤️"
+                  ></iframe>
+                </div>
+              </div>
+              <div class="p-6">
+                <h1
+                  class="title-font text-lg font-medium text-gray-200 mt-7 mb-3"
+                >
+                  Showing off Energy Board 💖
+                </h1>
+
+                <p class="leading-relaxed mb-5 text-white">
+                  Shooting this cool Energy.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Card -->
+          <div class="p-4 md:w-1/3">
+            <div
+              class="h-full rounded-xl bg-gradient-to-r shadow-md shadow-black from-slate-800 to-gray-900 overflow-hidden"
+            >
+              <div
+                class="bg-black lg:h-48 md:h-36 w-full object-cover object-center md:scale-105 transition-all duration-400 hover:scale-100"
+              >
+                <iframe
+                  src="https://player.vimeo.com/video/716252486?h=f86d92304e&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                  frameborder="0"
+                  allow="autoplay; fullscreen; picture-in-picture"
+                  allowfullscreen
+                  style="
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                  "
+                  title="Making"
+                ></iframe>
+              </div>
+              <div class="p-6">
+                <h1
+                  class="title-font text-lg font-medium text-gray-200 mt-7 mb-3"
+                >
+                  Filming Advertisement 📽️
+                </h1>
+
+                <p class="leading-relaxed mb-5 text-white">
+                  Just the team working hard on a project.
+                </p>
               </div>
             </div>
           </div>
