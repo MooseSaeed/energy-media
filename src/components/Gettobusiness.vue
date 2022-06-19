@@ -13,13 +13,13 @@
     </div>
 
     <p class="text-white text-lg">
-      We like to keep it simple. Therefore, feel free to fill this
+      We like to keep it simple. Therefore, feel free to contact Energy team on
+      Whatsapp business number
       <span
-        class="underline text-red-500 font-bold hover:text-red-400 hover:no-underline cursor-pointer"
+        class="underline text-red-500 font-bold hover:text-red-400 hover:no-underline"
       >
-        <a href="/">form</a>
+        +2 0100 694 7137
       </span>
-      to contact Energy team.
     </p>
   </section>
 </template>
