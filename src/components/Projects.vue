@@ -166,14 +166,14 @@
             </div>
           </div>
           <!-- Card -->
-          <div class="p-4 md:w-1/3">
+          <div class="p-4 md:w-1/3 w-full">
             <div
               class="h-full rounded-xl bg-gradient-to-r shadow-md shadow-black from-slate-800 to-gray-900 overflow-hidden"
             >
               <div
                 class="lg:h-48 md:h-36 w-full object-cover object-center md:scale-105 transition-all duration-400 hover:scale-100"
               >
-                <div style="padding: 55.63% 0 0 0; position: relative">
+                <div style="padding: 54.72% 0 0 0; position: relative">
                   <iframe
                     src="https://player.vimeo.com/video/720186132?h=1a4508a130&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
                     frameborder="0"
@@ -186,7 +186,7 @@
                       width: 100%;
                       height: 100%;
                     "
-                    title="ENERGY ❤️"
+                    title="ENERGY"
                   ></iframe>
                 </div>
               </div>
@@ -203,28 +203,31 @@
               </div>
             </div>
           </div>
+
           <!-- Card -->
-          <div class="p-4 md:w-1/3">
+          <div class="p-4 md:w-1/3 w-full">
             <div
               class="h-full rounded-xl bg-gradient-to-r shadow-md shadow-black from-slate-800 to-gray-900 overflow-hidden"
             >
               <div
                 class="bg-black lg:h-48 md:h-36 w-full object-cover object-center md:scale-105 transition-all duration-400 hover:scale-100"
               >
-                <iframe
-                  src="https://player.vimeo.com/video/716252486?h=f86d92304e&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-                  frameborder="0"
-                  allow="autoplay; fullscreen; picture-in-picture"
-                  allowfullscreen
-                  style="
-                    position: absolute;
-                    top: 0;
-                    left: 0;
-                    width: 100%;
-                    height: 100%;
-                  "
-                  title="Making"
-                ></iframe>
+                <div style="padding: 54.72% 0 0 0; position: relative">
+                  <iframe
+                    src="https://player.vimeo.com/video/716252486?h=f86d92304e&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                    frameborder="0"
+                    allow="autoplay; fullscreen; picture-in-picture"
+                    allowfullscreen
+                    style="
+                      position: absolute;
+                      top: 0;
+                      left: 0;
+                      width: 100%;
+                      height: 80%;
+                    "
+                    title="Making"
+                  ></iframe>
+                </div>
               </div>
               <div class="p-6">
                 <h1
