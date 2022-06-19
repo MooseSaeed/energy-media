@@ -16,7 +16,7 @@
             <div class="py-6 px-5 lg:flex">
               <div class="flex-1 lg:mr-8 self-center">
                 <img
-                  src="../assets/images/robotthumbnail.png"
+                  src="../assets/images/energythumbnail.png"
                   alt="Blog Post illustration"
                   class="rounded-xl object-cover"
                 />
@@ -27,7 +27,7 @@
                   <div class="mt-4 card-info">
                     <a href="/">
                       <h1 class="text-3xl text-red-500 font-bold">
-                        Some Big Title
+                        Energy for Media Production
                       </h1>
                     </a>
                   </div>
@@ -35,20 +35,17 @@
 
                 <div class="card-info text-md mt-2">
                   <p>
-                    Not an excerpt but some data of random lorem Lorem ipsum
-                    dolor sit amet consectetur, adipisicing elit. Sint minus
-                    alias voluptatibus iusto odio facere officiis, possimus
-                    laborum illum voluptatem cupiditate inventore expedita
-                    obcaecati hic. Dignissimos iure error eius, animi qui quam
-                    voluptatum ad cumque explicabo culpa, sunt quod eligendi
-                    quis dolorem laboriosam! Explicabo minus autem quod illum
-                    iste. Laudantium, delectus ipsum! Incidunt iusto recusandae
-                    id sit vitae similique, ipsa ea cupiditate adipisci labore.
-                    Voluptate labore eaque vitae ex dolor quam in temporibus
-                    adipisci, suscipit corporis! Hic ut unde facilis non minus.
-                    Enim, officiis alias beatae voluptate tempora, accusantium
-                    inventore perspiciatis vitae, dignissimos dolores assumenda
-                    recusandae sunt. Veniam, laudantium. Velit!
+                    A comprehensive technical production team of specialists
+                    outfitted with cutting-edge technology to create all videos
+                    in a unique and creative manner.
+                  </p>
+                  <p>
+                    Sameh Mohamed Essam, the company&#39;s creator, is a
+                    graduate of the International Academy For Engineering &amp;
+                    Media Science - IAEMS Film Production Department. He worked
+                    as an assistant assistant director in the film &quot;Al
+                    Areef&quot; starring Magdy Kamel and Enas Al-Najjar, and as
+                    an assistant director at the dmc channel.
                   </p>
                 </div>
 
@@ -57,14 +54,50 @@
                 >
                   <div></div>
 
-                  <Secondarybtn class="mt-4 cursor-pointer">
-                    <a href="#gettobusiness">Learn more</a>
-                  </Secondarybtn>
+                  <a class="w-full" href="#gettobusiness">
+                    <Secondarybtn class="mt-4 cursor-pointer">
+                      Learn more
+                    </Secondarybtn>
+                  </a>
                 </footer>
               </div>
             </div>
           </article>
         </Card>
+        <div class="mt-10 text-white w-full text-left">
+          <div class="md:flex flex-row space-between">
+            <div class="md:border-r-2 flex-1 prose prose-invert">
+              <h3>A Team Of:</h3>
+              <ul>
+                <li>Directors</li>
+                <li>Photography and Monterrey Directors</li>
+                <li>Sound Engineers</li>
+                <li>Graphic Designers</li>
+                <li>Fullstack Developers</li>
+              </ul>
+            </div>
+            <div class="flex-1 md:ml-5 prose prose-invert">
+              <h3>
+                We provide you with media, advertising and promotion services
+                for various fields such as:
+              </h3>
+              <ul>
+                <li>Sponsored ads</li>
+                <li>Advertisements for products or openings</li>
+                <li>
+                  Implementation of programs, short films and documentaries
+                </li>
+                <li>Graduation projects for students</li>
+                <li>Implementation of clips for singers and brands</li>
+                <li>
+                  Managing social media pages and promoting their contents
+                </li>
+                <li>Covering events, parties, conferences and seminars</li>
+                <li>Web Design / Web Development</li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>

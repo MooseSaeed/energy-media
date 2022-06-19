@@ -175,7 +175,7 @@ p + p {
     pointer-events: none;
 } */
 .card-info {
-  transform: translateY(10%);
+  transform: translateY(3%);
   transition: transform 0.6s 0.6s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 
