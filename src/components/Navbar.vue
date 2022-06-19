@@ -8,8 +8,9 @@
       <a href="/" class="flex items-center">
         <span
           class="self-center font-sans text-lg sm:text-2xl text-white font-semibold whitespace-nowrap"
-          >Energy</span
         >
+          <Brightlogo />
+        </span>
       </a>
       <div class="flex items-center md:order-2">
         <button
@@ -93,7 +94,11 @@
 </template>
 
 <script>
+import Brightlogo from "./SVGs/Brightlogo.vue";
 export default {
+  components: {
+    Brightlogo,
+  },
   data() {
     return {
       toggle: false,

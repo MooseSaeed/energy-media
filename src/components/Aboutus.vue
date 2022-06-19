@@ -6,6 +6,7 @@
     >
       About <span class="bg-black px-2 py-1 text-red-500">US</span>
     </h2>
+
     <div class="text-gray-600 body-font">
       <div class="container px-5 mx-auto">
         <Card class="rounded-xl">
