@@ -12,7 +12,7 @@
           <Brightlogo />
         </span>
       </a>
-      <div class="flex items-center md:order-2">
+      <div class="flex md:hidden items-center md:order-2">
         <button
           @click="navToggle"
           type="button"
