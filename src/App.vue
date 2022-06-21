@@ -1,13 +1,13 @@
 <template>
   <div class="bg-neutral-900">
-    <Navbar
-      :class="
-        scrollingDown
-          ? 'animate__animated animate__fadeOutUp '
-          : 'animate__animated animate__fadeInDown '
-      "
-    />
     <router-view v-slot="{ Component, route }">
+      <Navbar
+        :class="
+          scrollingDown
+            ? 'animate__animated animate__fadeOutUp '
+            : 'animate__animated animate__fadeInDown '
+        "
+      />
       <transition
         :enter-active-class="route.meta.enterClass"
         :leave-active-class="route.meta.leaveClass"
