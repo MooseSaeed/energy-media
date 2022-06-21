@@ -9,16 +9,6 @@
   <footer
     class="relative bg-black text-white text-center pb-20 px-10 flex flex-col justify-center items-center"
   >
-    <div class="absolute bottom-4 right-4">
-      <p class="flex flex-col justify-center items-center">
-        Made with 💖 by
-        <span>
-          <a target="_blank" href="https://linktr.ee/moosesaid"
-            ><img src="../assets/images/my-logo-dark.png" alt=""
-          /></a>
-        </span>
-      </p>
-    </div>
     <slot />
 
     <div
@@ -72,6 +62,19 @@
           />
         </a>
       </div>
+    </div>
+    <div class="mt-5 md:absolute md:bottom-4 md:right-4">
+      <p class="flex flex-col justify-center items-center">
+        Made with 💖 by
+        <span>
+          <a target="_blank" href="https://linktr.ee/moosesaid"
+            ><img
+              class="w-24 hover:scale-110 transition-all"
+              src="../assets/images/my-logo-dark.png"
+              alt=""
+          /></a>
+        </span>
+      </p>
     </div>
   </footer>
 </template>
