@@ -1,5 +1,6 @@
 <template>
   <nav
+    v-click-outside="onClickOutside"
     class="bg-gray-900/25 backdrop-blur-md md:px-0 py-4 w-full fixed z-50 top-0"
   >
     <div
@@ -87,6 +88,13 @@
               لنبدأ العمل معاً
             </a>
           </li>
+          <li>
+            <a
+              class="block py-2 pr-4 pl-3 text-white font-semibold border-b border-gray-100 hover:bg-red-500 md:hover:bg-transparent md:border-0 md:hover:text-red-500 md:p-0"
+            >
+              <Langicon />
+            </a>
+          </li>
         </ul>
       </div>
     </div>
@@ -94,10 +102,16 @@
 </template>
 
 <script>
+import vClickOutside from "click-outside-vue3";
 import Brightlogo from "../SVGs/Brightlogo.vue";
+import Langicon from "../SVGs/Langicon.vue";
 export default {
+  directives: {
+    clickOutside: vClickOutside.directive,
+  },
   components: {
     Brightlogo,
+    Langicon,
   },
   data() {
     return {
@@ -106,6 +120,10 @@ export default {
   },
 
   methods: {
+    onClickOutside(event) {
+      document.getElementById("mobile-menu").classList.add("hidden");
+      this.toggle = false;
+    },
     navToggle() {
       this.toggle = !this.toggle;
       if (this.toggle) {
@@ -117,5 +135,3 @@ export default {
   },
 };
 </script>
-
-<style scoped></style>

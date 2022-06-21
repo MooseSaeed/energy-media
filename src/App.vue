@@ -2,6 +2,15 @@
   <div class="bg-neutral-900">
     <router-view v-slot="{ Component, route }">
       <Navbar
+        v-if="this.$route.path == '/en'"
+        :class="
+          scrollingDown
+            ? 'animate__animated animate__fadeOutUp '
+            : 'animate__animated animate__fadeInDown '
+        "
+      />
+      <Navbarar
+        v-if="this.$route.path == '/'"
         :class="
           scrollingDown
             ? 'animate__animated animate__fadeOutUp '
@@ -23,9 +32,11 @@
 
 <script>
 import Navbar from "./components/Navbar.vue";
+import Navbarar from "./components/ar/Navbarar.vue";
 export default {
   components: {
     Navbar,
+    Navbarar,
   },
   data() {
     return {
