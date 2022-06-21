@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
 import HomeViewAr from "../views/HomeViewAr.vue";
+import Notfound from "../views/Notfound.vue";
 
 const routes = [
   {
@@ -12,6 +13,12 @@ const routes = [
     path: "/en",
     name: "home",
     component: HomeView,
+  },
+  //catch all 404
+  {
+    path: "/:catchAll(.*)",
+    name: "notFound",
+    component: Notfound,
   },
   // {
   //   path: "/about",
