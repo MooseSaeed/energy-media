@@ -5,13 +5,13 @@ import HomeViewAr from "../views/HomeViewAr.vue";
 const routes = [
   {
     path: "/",
-    name: "home",
-    component: HomeView,
-  },
-  {
-    path: "/ar",
     name: "homear",
     component: HomeViewAr,
+  },
+  {
+    path: "/en",
+    name: "home",
+    component: HomeView,
   },
   // {
   //   path: "/about",
