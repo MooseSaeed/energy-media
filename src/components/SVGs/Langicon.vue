@@ -23,11 +23,17 @@
       v-if="langOn"
       class="bg-white/90 backdrop-blur-md rounded-xl flex flex-col justify-center items-center text-black absolute -bottom-9 px-4 py-1"
     >
-      <a v-if="this.$route.path == '/'" href="/en" class="hover:text-red-500"
-        >English</a
+      <router-link
+        to="/en"
+        v-if="this.$route.path == '/'"
+        class="hover:text-red-500"
+        >English</router-link
       >
-      <a v-if="this.$route.path == '/en'" href="/" class="hover:text-red-500"
-        >العربية</a
+      <router-link
+        to="/"
+        v-if="this.$route.path == '/en'"
+        class="hover:text-red-500"
+        >العربية</router-link
       >
     </div>
   </div>
