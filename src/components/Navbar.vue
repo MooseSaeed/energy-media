@@ -1,5 +1,6 @@
 <template>
   <nav
+    v-click-outside="onClickOutside"
     class="bg-gray-900/25 backdrop-blur-md md:px-0 py-4 w-full fixed z-50 top-0"
   >
     <div
@@ -87,7 +88,7 @@
               Get to Business
             </a>
           </li>
-          <li @click="changeLang">
+          <li>
             <a
               class="block py-2 pr-4 pl-3 text-white font-semibold border-b border-gray-100 hover:bg-red-500 md:hover:bg-transparent md:border-0 md:hover:text-red-500 md:p-0"
             >
@@ -101,9 +102,13 @@
 </template>
 
 <script>
+import vClickOutside from "click-outside-vue3";
 import Brightlogo from "./SVGs/Brightlogo.vue";
 import Langicon from "./SVGs/Langicon.vue";
 export default {
+  directives: {
+    clickOutside: vClickOutside.directive,
+  },
   components: {
     Brightlogo,
     Langicon,
@@ -115,7 +120,10 @@ export default {
   },
 
   methods: {
-    changeLang() {},
+    onClickOutside(event) {
+      document.getElementById("mobile-menu").classList.add("hidden");
+      this.toggle = false;
+    },
     navToggle() {
       this.toggle = !this.toggle;
       if (this.toggle) {

@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "animate.css": "^4.1.1",
+    "click-outside-vue3": "^4.0.1",
     "core-js": "^3.8.3",
     "vue": "^3.2.13",
     "vue-responsive-video-background-player": "^2.2.1",

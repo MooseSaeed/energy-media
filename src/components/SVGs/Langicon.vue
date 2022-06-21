@@ -1,5 +1,8 @@
 <template>
-  <div class="relative flex flex-col justify-center items-center">
+  <div
+    class="relative flex flex-col justify-center items-center"
+    v-click-outside="onClickOutside"
+  >
     <svg
       @click="langToggle"
       class="cursor-pointer group"
@@ -31,13 +34,20 @@
 </template>
 
 <script>
+import vClickOutside from "click-outside-vue3";
 export default {
+  directives: {
+    clickOutside: vClickOutside.directive,
+  },
   data() {
     return {
       langOn: false,
     };
   },
   methods: {
+    onClickOutside(event) {
+      this.langOn = false;
+    },
     langToggle() {
       this.langOn = !this.langOn;
     },
