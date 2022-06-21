@@ -1,18 +1,18 @@
 <template>
   <div
-    class="relative flex flex-col justify-center items-center"
+    class="relative flex flex-col justify-center items-center cursor-pointer"
     v-click-outside="onClickOutside"
+    @click="langToggle"
   >
     <svg
-      @click="langToggle"
-      class="cursor-pointer group"
+      class="group"
       width="24px"
       height="24px"
       viewBox="0 0 24 24"
       xmlns="http://www.w3.org/2000/svg"
     >
       <path
-        class="group-hover:stroke-red-500"
+        class="md:group-hover:stroke-red-500"
         fill="none"
         stroke="#fff"
         stroke-width="2"
