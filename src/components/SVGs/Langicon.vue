@@ -18,10 +18,14 @@
     </svg>
     <div
       v-if="langOn"
-      class="bg-white/90 backdrop-blur-md rounded-xl flex flex-col justify-center items-center text-black absolute -bottom-14 px-4 py-1"
+      class="bg-white/90 backdrop-blur-md rounded-xl flex flex-col justify-center items-center text-black absolute -bottom-9 px-4 py-1"
     >
-      <a href="/en" class="hover:text-red-500">English</a>
-      <a href="/" class="hover:text-red-500">العربية</a>
+      <a v-if="this.$route.path == '/'" href="/en" class="hover:text-red-500"
+        >English</a
+      >
+      <a v-if="this.$route.path == '/en'" href="/" class="hover:text-red-500"
+        >العربية</a
+      >
     </div>
   </div>
 </template>
